@@ -7,10 +7,10 @@ class Rudder < Formula
 
   if OS.mac?
     url "https://github.com/ryantking/rudder/releases/download/v1.0.0/rudder-1.0.0-darwin-amd64.tar.gz"
-    sha256 "d11c2c1c180b854ccfeefae8fe18bfe84eeea34617125d691d53aef9e2628081"
+    sha256 "1d6acdba629bac132a437b189e96a8fc248785d15d109906fe85519cff8ac716"
   elsif OS.linux?
     url "https://github.com/ryantking/rudder/releases/download/v1.0.0/rudder-1.0.0-linux-amd64.tar.gz"
-    sha256 "e7a8263d41315c1baebcf3e296009305310e80302b93d555fbb3a7ea6c3a1420"
+    sha256 "ebf5029ec7664473005453989ea50a253abd47665c8cc4333ed490efb316f08e"
   end
 
   def install
