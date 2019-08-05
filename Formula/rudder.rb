@@ -2,15 +2,15 @@
 class Rudder < Formula
   desc "Portable Kubernetes deployment tool"
   homepage "github.com/ryantking/rudder"
-  version "1.1.0"
+  version "1.2.0"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/ryantking/rudder/releases/download/v1.1.0/rudder-1.1.0-darwin-amd64.tar.gz"
-    sha256 "8fff4968731c810fc59d0c85d60747d43fde5af4a618054398bb227902c6ac49"
+    url "https://github.com/ryantking/rudder/releases/download/v1.2.0/rudder-1.2.0-darwin-amd64.tar.gz"
+    sha256 "cc7522591e8fa9bbef2d68a5cae6a1ac21d0c2e398801c1e0efad152fd25378b"
   elsif OS.linux?
-    url "https://github.com/ryantking/rudder/releases/download/v1.1.0/rudder-1.1.0-linux-amd64.tar.gz"
-    sha256 "372c1a459d886df6d2bd38ca00ca89b59489e040a7907c8594a9eb0dfa05b62a"
+    url "https://github.com/ryantking/rudder/releases/download/v1.2.0/rudder-1.2.0-linux-amd64.tar.gz"
+    sha256 "e14489b1a33110a7c1b4fd38df242c20581ddf5abec685c2140df29c071c3be6"
   end
 
   def install
